@@ -1,0 +1,893 @@
+[
+  {
+    "Modulnummer": "C055",
+    "Version": 2,
+    "Modul": "Algorithm Engineering",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "90 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "3 Monate",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Präsentation"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6245"
+  },
+  {
+    "Modulnummer": "C112",
+    "Version": 2,
+    "Modul": "Data Warehousing",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "90 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "10 Wochen",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020",
+      "20MMM.1 – Medienmanagement | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6292"
+  },
+  {
+    "Modulnummer": "C133",
+    "Version": 2,
+    "Modul": "Oberseminare",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": [
+      "Prof. Dr. rer. nat. habil. Michael Frank",
+      "Prof. Dr. rer. nat. Klaus Hering",
+      "Prof. Dr. rer. nat. Mario Hlawitschka",
+      "Prof. Dr. rer. nat. Heinrich Krämer",
+      "Prof. Dr.-Ing. Thomas Kudraß",
+      "Prof. Dr.-Ing. Jean-Alexander Müller",
+      "Prof. Dr. rer. nat. Thomas Riechert",
+      "Prof. Dr.-Ing. Axel Schneider",
+      "Prof. Dr. Kiran Varanasi",
+      "Prof. Dr. rer. nat. Jens Wagner",
+      "Prof. Dr. rer. nat. Johannes Waldmann",
+      "Prof. Dr. rer. nat. Karsten Weicker"
+    ],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Kolloquium",
+        "Dauer": "45 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false,
+        "Zuordnung": "Seminar 1"
+      },
+      {
+        "Typ": "Prüfung Kolloquium",
+        "Dauer": "45 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false,
+        "Zuordnung": "Seminar 2"
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch", "Englisch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6289"
+  },
+  {
+    "Modulnummer": "C149",
+    "Version": 2,
+    "Modul": "Projekt",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": [
+      "Prof. Dr. rer. nat. habil. Michael Frank",
+      "Prof. Dr. rer. nat. Klaus Hering",
+      "Prof. Dr. rer. nat. Mario Hlawitschka",
+      "Prof. Dr. rer. nat. Heinrich Krämer",
+      "Prof. Dr.-Ing. Jean-Alexander Müller",
+      "Prof. Dr.-Ing. Thomas Kudraß",
+      "Prof. Dr. rer. nat. Thomas Riechert",
+      "Prof. Dr.-Ing. Axel Schneider",
+      "Prof. Dr. Kiran Varanasi",
+      "Prof. Dr. rer. nat. Jens Wagner",
+      "Prof. Dr. rer. nat. Johannes Waldmann",
+      "Prof. Dr. rer. nat. Karsten Weicker",
+      "Prof. Dr. rer. nat. Sibylle Schwarz"
+    ],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Hausarbeit",
+        "Dauer": "20 Wochen",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6290"
+  },
+  {
+    "Modulnummer": "C166",
+    "Version": 2,
+    "Modul": "Innovative Rechnerarchitekturen",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Klaus Hering"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Klaus Hering"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "30 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Referat"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6342"
+  },
+  {
+    "Modulnummer": "C169",
+    "Version": 2,
+    "Modul": "Digitale Bildverarbeitung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "90 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6297"
+  },
+  {
+    "Modulnummer": "C179",
+    "Version": 2,
+    "Modul": "Kryptologie",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Referat",
+        "Dauer": "25 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung am Computer",
+        "Dauer": "60 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6324"
+  },
+  {
+    "Modulnummer": "C190",
+    "Version": 2,
+    "Modul": "Internetworking",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "25 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6244"
+  },
+  {
+    "Modulnummer": "C195",
+    "Version": 2,
+    "Modul": "Evolutionäre Algorithmen",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "30 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Präsentation", "Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester alle zwei Jahre",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6300"
+  },
+  {
+    "Modulnummer": "C201",
+    "Version": 2,
+    "Modul": "Mustererkennung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung am Computer",
+        "Dauer": "60 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung Referat",
+        "Dauer": "15 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6325"
+  },
+  {
+    "Modulnummer": "C237",
+    "Version": 2,
+    "Modul": "IT-Sicherheit (Aufbaukurs)",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "30 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6294"
+  },
+  {
+    "Modulnummer": "C251",
+    "Version": 2,
+    "Modul": "Betriebliche Informationssysteme",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "6 Wochen",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "60 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6286"
+  },
+  {
+    "Modulnummer": "C268",
+    "Version": 0,
+    "Modul": "Big-Data-Technologien",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "120 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg", "Referat"],
+    "Sprache(n)": ["Deutsch", "Englisch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6293"
+  },
+  {
+    "Modulnummer": "C277",
+    "Version": 2,
+    "Modul": "Multimedia-Datenbanken (Aufbaukurs)",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Robert Müller"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Robert Müller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "3 Monate",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6348"
+  },
+  {
+    "Modulnummer": "C312",
+    "Version": 0,
+    "Modul": "Objekt- und Gestenerkennung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. Kiran Varanasi"],
+    "Modulverantwortliche": ["Prof. Dr. Kiran Varanasi"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "20 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "4 Wochen",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Projektarbeit"],
+    "Sprache(n)": ["Englisch", "Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6333"
+  },
+  {
+    "Modulnummer": "C367",
+    "Version": 0,
+    "Modul": "Progressive Web Applications",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "4 Wochen",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6303"
+  },
+  {
+    "Modulnummer": "C377",
+    "Version": 2,
+    "Modul": "Prinzipien von Programmiersprachen",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "120 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6284"
+  },
+  {
+    "Modulnummer": "C398 [C122]",
+    "Version": 0,
+    "Modul": "Visualisierung in Naturwissenschaft und Technik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "30 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6341"
+  },
+  {
+    "Modulnummer": "C411",
+    "Version": 2,
+    "Modul": "Crossmedia-Produktion",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "4 Wochen",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester alle zwei Jahre",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6304"
+  },
+  {
+    "Modulnummer": "C446 [C455]",
+    "Version": 0,
+    "Modul": "3D-Erfassung, -Design und -Dynamik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. Kiran Varanasi"],
+    "Modulverantwortliche": ["Prof. Dr. Kiran Varanasi"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Projektarbeit",
+        "Dauer": "4 Wochen",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "20 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Englisch", "Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6334"
+  },
+  {
+    "Modulnummer": "C478",
+    "Version": 0,
+    "Modul": "Media Lifecycle Management",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "90 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6310"
+  },
+  {
+    "Modulnummer": "C533",
+    "Version": 2,
+    "Modul": "Mastermodul",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 30,
+    "Dozierende": [
+      "Prof. Dr. rer. nat. habil. Michael Frank",
+      "Prof. Dr. rer. nat. Klaus Hering",
+      "Prof. Dr. rer. nat. Mario Hlawitschka",
+      "Prof. Dr. rer. nat. Heinrich Krämer",
+      "Prof. Dr.-Ing. Thomas Kudraß",
+      "Prof. Dr.-Ing. Jean-Alexander Müller",
+      "Prof. Dr. rer. nat. Thomas Riechert",
+      "Prof. Dr.-Ing. Axel Schneider",
+      "Prof. Dr. rer. nat. Sibylle Schwarz",
+      "Prof. Dr. Kiran Varanasi",
+      "Prof. Dr. rer. nat. Jens Wagner",
+      "Prof. Dr. rer. nat. Johannes Waldmann",
+      "Prof. Dr. rer. nat. Karsten Weicker"
+    ],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Hausarbeit",
+        "Dauer": "6 Monate",
+        "Wichtung": "75%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung Verteidigung",
+        "Dauer": "60 Minuten",
+        "Wichtung": "25%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Referat"],
+    "Sprache(n)": ["Deutsch", "Englisch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6291"
+  },
+  {
+    "Modulnummer": "C593",
+    "Version": 2,
+    "Modul": "Human Computer Interaction",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "120 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6302"
+  },
+  {
+    "Modulnummer": "C624",
+    "Version": 0,
+    "Modul": "Computermusik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "30 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Zuordnung zum Curriculum": [
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6317"
+  },
+  {
+    "Modulnummer": "C762",
+    "Version": 0,
+    "Modul": "Software Engineering",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Referat",
+        "Dauer": "30 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "60 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6288"
+  },
+  {
+    "Modulnummer": "C777",
+    "Version": 2,
+    "Modul": "Mediendidaktik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Dr. Sandra Fleischer"],
+    "Modulverantwortliche": ["Dr. Sandra Fleischer"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Hausarbeit",
+        "Dauer": "2 Monate",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      },
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "30 Minuten",
+        "Wichtung": "50%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6349"
+  },
+  {
+    "Modulnummer": "C803 [zuvor: C244]",
+    "Version": 1,
+    "Modul": "Künstliche Intelligenz",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "90 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg", "Referat"],
+    "Sprache(n)": ["Deutsch"],
+    "Zuordnung zum Curriculum": ["20INM.2 – Informatik | Master 2020", "20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6299"
+  },
+  {
+    "Modulnummer": "C933",
+    "Version": 0,
+    "Modul": "Einführung in die Visualisierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Mario Hlawitschka", "Prof. Dr. Kiran Varanasi"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "90 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": [],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6340"
+  },
+  {
+    "Modulnummer": "C971 [C366]",
+    "Version": 0,
+    "Modul": "Digitales Lehr- und Lernmanagement",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Klaus Hering"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Klaus Hering"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung mündliches Fachgespräch",
+        "Dauer": "30 Minuten",
+        "Wichtung": "100%",
+        "Kompensierbar": false
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20MIM.2 – Medieninformatik | Master 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6362"
+  },
+  {
+    "Modulnummer": "N213",
+    "Version": 2,
+    "Modul": "Operations Research",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung am Computer",
+        "Dauer": "90 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6326"
+  },
+  {
+    "Modulnummer": "N298",
+    "Version": 0,
+    "Modul": "Nichtlineare Optimierung",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Jochen Merker"],
+    "Modulverantwortliche": [],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "120 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Englisch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6313"
+  },
+  {
+    "Modulnummer": "N604",
+    "Version": 0,
+    "Modul": "Empirische Methoden für Informatiker",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Andreas Lasarow"],
+    "Modulverantwortliche": [],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "120 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6330"
+  },
+  {
+    "Modulnummer": "N965",
+    "Version": 0,
+    "Modul": "Zeitreihenanalyse und Prognoseverfahren",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Tobias Martin", "Prof. Dr. rer. nat. habil. Andreas Lasarow"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Tobias Martin"],
+    "Prüfungsleistung(en)": [
+      {
+        "Typ": "Prüfung Klausurarbeit",
+        "Dauer": "120 Minuten",
+        "Wichtung": "100%"
+      }
+    ],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INM.2 – Informatik | Master 2020",
+      "20MIM.2 – Medieninformatik | Master 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6328"
+  }
+]
+

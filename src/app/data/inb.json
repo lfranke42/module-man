@@ -1,0 +1,872 @@
+[
+  {
+    "Modulnummer": "C004",
+    "Modul": "Mikroprogrammierung und Mikroprozessoren",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Jens Wagner"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Jens Wagner"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6336"
+  },
+  {
+    "Modulnummer": "C010",
+    "Modul": "Grundlagen der mobilen Robotik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Jens Wagner"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Jens Wagner"],
+    "Prüfungsleistung(en)": ["Prüfung Hausarbeit", "Prüfung Referat"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Laborarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "18INB.2 – Informatik | Bachelor 2018",
+      "19INB.1 – Informatik | Bachelor 2019",
+      "20INB.2 – Informatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6264"
+  },
+  {
+    "Modulnummer": "C064",
+    "Modul": "Audio-Video-Kommunikation",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6243"
+  },
+  {
+    "Modulnummer": "C073",
+    "Modul": "Softwareprojekt I",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6246"
+  },
+  {
+    "Modulnummer": "C114",
+    "Modul": "Modellierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 8,
+    "Dozierende": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg", "Prüfungsvorleistung Präsentation"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6218"
+  },
+  {
+    "Modulnummer": "C121",
+    "Modul": "Computergrafik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Mario Hlawitschka", "Prof. Dr. Kiran Varanasi"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung am Computer"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6272"
+  },
+  {
+    "Modulnummer": "C160",
+    "Modul": "Constraint-Programmierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Zuordnung zum Curriculum": [
+      "18INB.2 – Informatik | Bachelor 2018",
+      "19INB.1 – Informatik | Bachelor 2019",
+      "20INB.2 – Informatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6783"
+  },
+  {
+    "Modulnummer": "C171",
+    "Modul": "Softwareprojekt II",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6247"
+  },
+  {
+    "Modulnummer": "C182",
+    "Modul": "Computeranimation",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6339"
+  },
+  {
+    "Modulnummer": "C222",
+    "Modul": "Praxisprojekt",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 15,
+    "Dozierende": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Prüfungsleistung(en)": ["Prüfung Referat"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6227"
+  },
+  {
+    "Modulnummer": "C227",
+    "Modul": "Vertiefende Spezialvorlesung der Informatik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": [
+      "Prof. Dr. rer. nat. habil. Michael Frank",
+      "Prof. Dr. rer. nat. Klaus Hering",
+      "Prof. Dr. rer. nat. Mario Hlawitschka",
+      "Prof. Dr.-Ing. Thomas Kudraß",
+      "Prof. Dr. rer. nat. Thomas Riechert",
+      "Prof. Dr. rer. nat. Heinrich Krämer",
+      "Prof. Dr.-Ing. Axel Schneider",
+      "Prof. Dr. rer. nat. Sibylle Schwarz",
+      "Prof. Dr. Kiran Varanasi",
+      "Prof. Dr. rer. nat. Johannes Waldmann",
+      "Prof. Dr. rer. nat. Jens Wagner",
+      "Prof. Dr. rer. nat. Karsten Weicker",
+      "Prof. Dr.-Ing. Jean-Alexander Müller"
+    ],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Testat"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Nach Bekanntgabe der Fakultät",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6312"
+  },
+  {
+    "Modulnummer": "C241",
+    "Modul": "Bachelormodul",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 15,
+    "Dozierende": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": [
+      "Prüfung Hausarbeit",
+      "Prüfung Verteidigung"
+    ],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch", "Englisch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6236"
+  },
+  {
+    "Modulnummer": "C247",
+    "Modul": "Grundlagen Internet-basierter Informationssysteme",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6364"
+  },
+  {
+    "Modulnummer": "C249",
+    "Modul": "Semantic Web",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6782"
+  },
+  {
+    "Modulnummer": "C259",
+    "Modul": "Thread-Programmierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Alfons Geser"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Alfons Geser"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Testat"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6781"
+  },
+  {
+    "Modulnummer": "C287",
+    "Modul": "Betriebssysteme und Rechnernetze",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 6,
+    "Dozierende": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6237"
+  },
+  {
+    "Modulnummer": "C300",
+    "Modul": "Algorithmen und Datenstrukturen",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 6,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg", "Prüfungsvorleistung Präsentation"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6219"
+  },
+  {
+    "Modulnummer": "C383",
+    "Modul": "Prozessautomatisierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Axel Schneider"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Axel Schneider"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6366"
+  },
+  {
+    "Modulnummer": "C393",
+    "Modul": "Fortgeschrittene Programmierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Johannes Waldmann"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6229"
+  },
+  {
+    "Modulnummer": "C405",
+    "Modul": "Praktikum der Technischen Informatik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 8,
+    "Dozierende": [
+      "Prof. Dr. rer. nat. Jens Wagner",
+      "Prof. Dr. rer. nat. Hanna Brodowsky"
+    ],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Jens Wagner"],
+    "Prüfungsleistung(en)": [
+      "Prüfung Experiment (in Hardwarepraktikum I)",
+      "Prüfung Experiment (in Hardwarepraktikum II)",
+      "Prüfung Referat (in Systemnahe Programmierung)"
+    ],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Klausurarbeit (in Elektrotechnische Grundlagen)"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6257"
+  },
+  {
+    "Modulnummer": "C448",
+    "Modul": "Hardware-Entwurfstechnik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6356"
+  },
+  {
+    "Modulnummer": "C493",
+    "Modul": "Einführung in die virtuelle und erweiterte Realität (VR/AR)",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. Kiran Varanasi"],
+    "Modulverantwortliche": ["Prof. Dr. Kiran Varanasi"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit", "Prüfung Referat"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "18INB.2 – Informatik | Bachelor 2018",
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "19INB.1 – Informatik | Bachelor 2019",
+      "19MIB.1 – Medieninformatik | Bachelor 2019"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6332"
+  },
+  {
+    "Modulnummer": "C559",
+    "Modul": "Softwaretechnik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Projektarbeit", "Prüfungsvorleistung Testat"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6230"
+  },
+  {
+    "Modulnummer": "C585",
+    "Modul": "e-Learning",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Klaus Hering"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Klaus Hering"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6361"
+  },
+  {
+    "Modulnummer": "C622",
+    "Modul": "Grundlagen der Künstlichen Intelligenz",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6252"
+  },
+  {
+    "Modulnummer": "C651",
+    "Modul": "Dokumentbeschreibungssprachen",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6276"
+  },
+  {
+    "Modulnummer": "C652",
+    "Modul": "Mobile Computing",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Uwe Petermann"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Andreas Both"],
+    "Prüfungsleistung(en)": ["Prüfung am Computer"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6345"
+  },
+  {
+    "Modulnummer": "C680",
+    "Modul": "Anwendungsorientierte Programmierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6232"
+  },
+  {
+    "Modulnummer": "C719",
+    "Modul": "Datenbanken",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Projektarbeit"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6233"
+  },
+  {
+    "Modulnummer": "C720",
+    "Modul": "Datenbanken (Aufbaukurs)",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Thomas Kudraß"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Testat"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6277"
+  },
+  {
+    "Modulnummer": "C741",
+    "Modul": "Multimediale Webprogrammierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Michael Frank"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6270"
+  },
+  {
+    "Modulnummer": "C752",
+    "Modul": "Digitaltechnik I",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 8,
+    "Dozierende": ["Prof. Dr. rer. nat. Jens Wagner", "Prof. Dr. rer. nat. Hanna Brodowsky"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Jens Wagner"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6254"
+  },
+  {
+    "Modulnummer": "C763",
+    "Modul": "Digitale Signal- und Bildverarbeitung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6358"
+  },
+  {
+    "Modulnummer": "C799",
+    "Modul": "IT-Sicherheit",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Karsten Weicker"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Präsentation"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6234"
+  },
+  {
+    "Modulnummer": "C827",
+    "Modul": "Rechnerarchitektur",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Modulverantwortliche": ["Prof. Dr.-Ing. Jean-Alexander Müller"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Referat"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6260"
+  },
+  {
+    "Modulnummer": "C902",
+    "Modul": "Wissenschaftskommunikation in der Informatik",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Thomas Riechert", "Dr. phil. Antje Tober"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Thomas Riechert"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit", "Prüfung Referat"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch", "Englisch"],
+    "Semester": "Sommer- und Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6706"
+  },
+  {
+    "Modulnummer": "C947",
+    "Modul": "Digitaltechnik II",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Heinrich Krämer", "Prof. Dr. rer. nat. Jens Wagner"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Jens Wagner"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6256"
+  },
+  {
+    "Modulnummer": "C960",
+    "Modul": "Assemblerprogrammierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Heinrich Krämer"],
+    "Prüfungsleistung(en)": ["Prüfung Projektarbeit"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6359"
+  },
+  {
+    "Modulnummer": "C963",
+    "Modul": "Grundlagen der Programmierung",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 7,
+    "Dozierende": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Mario Hlawitschka"],
+    "Prüfungsleistung(en)": ["Prüfung mündliches Fachgespräch"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6231"
+  },
+  {
+    "Modulnummer": "C993",
+    "Modul": "Automaten und formale Sprachen",
+    "Fakultät": "FIM-INF: Informatikstudiengänge - Fakultät Informatik und Medien",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Sibylle Schwarz"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg", "Prüfungsvorleistung Präsentation"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6235"
+  },
+  {
+    "Modulnummer": "F742",
+    "Modul": "Englisch für Studium und Beruf (B2)",
+    "Fakultät": "HSK: Hochschulkolleg - Fremdsprachen und Interkulturalität",
+    "ECTS-Leistungspunkte": 3,
+    "Dozierende": ["Zsolt Attila Kalitka", "Dr. phil. Antje Tober"],
+    "Modulverantwortliche": ["Dr. phil. Antje Tober"],
+    "Prüfungsleistung(en)": ["Prüfung Referat", "Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung am Computer"],
+    "Sprache(n)": ["Englisch"],
+    "Semester": "Sommer- und Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "18EGB.1 – Energie-, Gebäude- und Umwelttechnik 2018",
+      "18MBB.2 – Maschinenbau 2018",
+      "18SBB.4 – Wirtschaftsingenieurwesen Bauwesen | Bachelor 2018",
+      "18SGB.4 – Wirtschaftsingenieurwesen Energietechnik | Bachelor 2018",
+      "18SMB.4 – Wirtschaftsingenieurwesen Maschinenbau | Bachelor 2018",
+      "18STB.4 – Wirtschaftsingenieurwesen Elektrotechnik | Bachelor 2018",
+      "20ARB.2 – Architektur | Bachelor 2020",
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6621"
+  },
+  {
+    "Modulnummer": "N055",
+    "Modul": "Mathematik für Informatiker II",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6251"
+  },
+  {
+    "Modulnummer": "N417",
+    "Modul": "Mathematik für Informatiker III",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Andreas Lasarow"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Andreas Lasarow"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6258"
+  },
+  {
+    "Modulnummer": "N450",
+    "Modul": "Einführung in ERP-Software (SAP)",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Tobias Martin"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Tobias Martin"],
+    "Prüfungsleistung(en)": ["Prüfung am Computer"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6301"
+  },
+  {
+    "Modulnummer": "N468",
+    "Modul": "Diskrete Mathematik und Optimierung",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6327"
+  },
+  {
+    "Modulnummer": "N662",
+    "Modul": "Mathematik für Informatiker I",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 7,
+    "Dozierende": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. habil. Martin Grüttmüller"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6250"
+  },
+  {
+    "Modulnummer": "N840",
+    "Modul": "Numerische Algorithmen",
+    "Fakultät": "MNZ-Ma: Mathematik - Mathematisch-Naturwissenschaftliches Zentrum",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. rer. nat. Patrick Kürschner"],
+    "Modulverantwortliche": ["Prof. Dr. rer. nat. Patrick Kürschner"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Beleg"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": ["20INB.2 – Informatik | Bachelor 2020"],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6308"
+  },
+  {
+    "Modulnummer": "U622",
+    "Modul": "Studium generale",
+    "Fakultät": "HSK: Hochschulkolleg - Studium generale",
+    "ECTS-Leistungspunkte": 2,
+    "Dozierende": ["Dr. rer. nat. Martin Schubert"],
+    "Modulverantwortliche": ["Dr. rer. nat. Martin Schubert"],
+    "Prüfungsleistung(en)": ["Teilnahmebescheinigung"],
+    "Prüfungsvorleistung(en)": ["Keine"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Sommer- und Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "18EGB.1 – Energie-, Gebäude- und Umwelttechnik 2018",
+      "18MBB.2 – Maschinenbau 2018",
+      "18SBB.4 – Wirtschaftsingenieurwesen Bauwesen | Bachelor 2018",
+      "18SGB.4 – Wirtschaftsingenieurwesen Energietechnik | Bachelor 2018",
+      "18SMB.4 – Wirtschaftsingenieurwesen Maschinenbau | Bachelor 2018",
+      "18STB.4 – Wirtschaftsingenieurwesen Elektrotechnik | Bachelor 2018",
+      "19EIB – Elektrotechnik und Informationstechnik | Bachelor 2019",
+      "20ARB.2 – Architektur | Bachelor 2020",
+      "20BIB.2 – Bauingenieurwesen | Bachelor 2020",
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020",
+      "22EIB.2 – Elektrotechnik und Informationstechnik | Bachelor 2022",
+      "23SAB.1 – Soziale Arbeit | Bachelor 2023"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6708"
+  },
+  {
+    "Modulnummer": "W233",
+    "Modul": "Einführung in die Betriebswirtschaftslehre",
+    "Fakultät": "FWW: Fakultät Wirtschaftswissenschaft und Wirtschaftsingenieurwesen",
+    "ECTS-Leistungspunkte": 5,
+    "Dozierende": ["Prof. Dr. oec. publ. Sabine Hüttinger", "Dipl.-Kauffrau Gisela Schwetzler"],
+    "Modulverantwortliche": ["Prof. Dr. oec. publ. Sabine Hüttinger"],
+    "Prüfungsleistung(en)": ["Prüfung Klausurarbeit"],
+    "Prüfungsvorleistung(en)": ["Prüfungsvorleistung Referat"],
+    "Sprache(n)": ["Deutsch"],
+    "Semester": "Wintersemester",
+    "Zuordnung zum Curriculum": [
+      "20INB.2 – Informatik | Bachelor 2020",
+      "20MIB.2 – Medieninformatik | Bachelor 2020",
+      "20MIB-BI.2 – Medieninformatik Studienrichtung Bibliotheksinformatik | Bachelor 2020"
+    ],
+    "Modulux-Link": "https://modulux.htwk-leipzig.de/modulux/modul/6249"
+  }
+]
+
