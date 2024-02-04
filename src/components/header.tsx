@@ -10,7 +10,7 @@ type HeaderProps = {
 
 export function Header(props: HeaderProps) {
   return (
-    <div>
+    <>
       <NavigationMenu className="w-screen pt-4 pb-4 backdrop-blur-sm">
         <NavigationMenuList className="container flex h-14 max-w-screen-2xl w-screen items-center pl-6 pr-6">
           <div className="mr-4 md:flex md:space-x-8">
@@ -27,7 +27,7 @@ export function Header(props: HeaderProps) {
                     <SelectItem value="inb">INB</SelectItem>
                     <SelectItem value="inm">INM</SelectItem>
                     <SelectItem value="mib">MIB</SelectItem>
-                    <SelectItem value="mib-bib">MIB-BIB</SelectItem>
+                    <SelectItem value="mib-bin">MIB-BIB</SelectItem>
                     <SelectItem value="mim">MIM</SelectItem>
                   </SelectGroup>
                 </SelectContent>
@@ -42,6 +42,6 @@ export function Header(props: HeaderProps) {
         </NavigationMenuList>
       </NavigationMenu>
       <Separator/>
-    </div>
+    </>
   )
 }
