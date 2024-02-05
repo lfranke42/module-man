@@ -2,7 +2,6 @@ import {ControlledBoard, KanbanBoard} from '@caldwell619/react-kanban'
 import {useEffect, useState} from "react";
 import {Module, ModuleDto} from "@/components/kanban/types";
 import {ModuleCard} from "@/components/kanban/module-card";
-import {CardHeader} from "@/components/ui/card";
 import {ColumnHeader} from "@/components/kanban/column-header";
 
 type BoardProps = {

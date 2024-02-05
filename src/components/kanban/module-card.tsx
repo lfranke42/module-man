@@ -1,5 +1,7 @@
 import * as React from "react"
 import {Card, CardContent, CardDescription, CardHeader, CardTitle,} from "@/components/ui/card"
+import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip";
+import {Badge} from "@/components/ui/badge";
 
 type ModuleCardProps = {
   name: string,
@@ -13,14 +15,22 @@ export function ModuleCard(props: ModuleCardProps) {
   return (
     <Card className="w-[300px] mb-4">
       <CardHeader>
-        <CardTitle>{props.name}</CardTitle>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <CardTitle className="text-ellipsis overflow-hidden">{props.name}</CardTitle>
+            </TooltipTrigger>
+            <TooltipContent>
+              {props.name}
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
         <CardDescription>{props.lecturers.at(0)}</CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-2 w-full items-center gap-2">
-          <div>{props.ects} ECTS</div>
-          <div>{props.semester}</div>
-          <div>{props.id}</div>
+        <div className="flex justify-between">
+          <div className="max-w-40">{props.semester}</div>
+          <Badge className={"self-start"}>{props.ects} ECTS</Badge>
         </div>
       </CardContent>
     </Card>

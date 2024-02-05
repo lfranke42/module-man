@@ -11,7 +11,7 @@ type HeaderProps = {
 export function Header(props: HeaderProps) {
   return (
     <>
-      <NavigationMenu className="w-screen pt-4 pb-4 backdrop-blur-sm">
+      <NavigationMenu className="pt-4 pb-4 backdrop-blur-sm">
         <NavigationMenuList className="container flex h-14 max-w-screen-2xl w-screen items-center pl-6 pr-6">
           <div className="mr-4 md:flex md:space-x-8">
             <NavigationMenuItem>
