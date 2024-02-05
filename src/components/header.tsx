@@ -3,6 +3,7 @@ import {H1} from "@/components/typography/H1";
 import {ModeToggle} from "@/components/mode-toggle";
 import {Separator} from "@/components/ui/separator";
 import {Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
+import {Login} from "@/components/login";
 
 type HeaderProps = {
   handleCourseChange: (course: string) => void
@@ -34,7 +35,10 @@ export function Header(props: HeaderProps) {
               </Select>
             </NavigationMenuItem>
           </div>
-          <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
+          <div className="flex flex-1 items-center justify-between space-x-4 md:justify-end">
+            <NavigationMenuItem>
+              <Login/>
+            </NavigationMenuItem>
             <NavigationMenuItem>
               <ModeToggle/>
             </NavigationMenuItem>
