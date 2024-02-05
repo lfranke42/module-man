@@ -1,4 +1,3 @@
-import {Label} from "@/components/ui/label";
 import {H3} from "@/components/typography/H3";
 
 type ColumnHeaderProps = {

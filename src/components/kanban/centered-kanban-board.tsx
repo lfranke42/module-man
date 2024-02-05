@@ -19,27 +19,30 @@ export function CenteredKanbanBoard(props: BoardProps) {
 
   // Fetch Modules from API
   useEffect(() => {
-      fetch(`/api/modules/${props.course}`).then(
-        response => response.json().then(
-          (data: ModuleDto[]) => {
-            const modules: Module[] = []
-            data.forEach((module: ModuleDto) => {
-                modules.push(
-                  {
-                    id: module.Modulnummer,
-                    name: module.Modul,
-                    ects: module["ECTS-Leistungspunkte"],
-                    semester: module.Semester,
-                    lecturers: module.Dozierende,
-                  }
-                )
-              }
-            )
-            board.columns[0].cards = modules
-          }
-        ))
-    }
-    , [props.course])
+    fetch(`/api/modules/${props.course}`).then(
+      response => response.json().then(
+        (data: ModuleDto[]) => {
+          const modules: Module[] = []
+          data.forEach((module: ModuleDto) => {
+              modules.push(
+                {
+                  id: module.Modulnummer,
+                  name: module.Modul,
+                  ects: module["ECTS-Leistungspunkte"],
+                  semester: module.Semester,
+                  lecturers: module.Dozierende,
+                }
+              )
+            }
+          )
+          setBoard(prevState => {
+            let newBoard = Object.assign({}, prevState)
+            newBoard.columns[0].cards = modules
+            return newBoard
+          })
+        }
+      ))
+  }, [props.course])
 
 
   return (
