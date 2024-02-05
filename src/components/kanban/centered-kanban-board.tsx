@@ -71,23 +71,22 @@ export function CenteredKanbanBoard(props: BoardProps) {
 
 
   return (
-    <div className="flex justify-center mt-16 ml-16 mr-16">
-      <ControlledBoard renderCard={(card: Module) => {
-        return <ModuleCard ects={card.ects} id={card.id} lecturers={card.lecturers} name={card.name}
-                           semester={card.semester} key={card.id}/>
-      }}
-                       disableColumnDrag={true}
+    <div className="flex justify-center mt-16 ml-4 mr-4 sm:ml-16 sm:mr-16">
+      <ControlledBoard disableColumnDrag={true}
                        allowRenameColumn={false}
                        allowAddCard={false}
                        allowRemoveCard={false}
                        allowAddColumn={true}
                        renderColumnHeader={(column) => {
-                         return <ColumnHeader title={column.title}/>
+                         return <ColumnHeader title={column.title} cards={column.cards}/>
+                       }}
+                       renderCard={(card: Module) => {
+                         return <ModuleCard ects={card.ects} id={card.id} lecturers={card.lecturers} name={card.name}
+                                            semester={card.semester} key={card.id}/>
                        }}
                        onCardDragEnd={(module, origin, destination) => {
                          handleCardDrag(module, origin, destination)
-                       }}
-      >
+                       }}>
         {board}
       </ControlledBoard>
     </div>
