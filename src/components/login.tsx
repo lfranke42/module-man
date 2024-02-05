@@ -13,7 +13,7 @@ export function Login() {
       {status == "authenticated" ? (
         <div className={"flex items-center space-x-4"}>
           <p>Signed in as {session.user?.name ?? "User"}</p>
-          <Button onClick={() => signOut()}>Sign out</Button>
+          <Button onClick={() => signOut()} variant="secondary">Sign out</Button>
         </div>
       ) : (
         <Button asChild>

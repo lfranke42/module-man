@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/components/kanban/types";
 import {ModuleCard} from "@/components/kanban/module-card";
 import {ColumnHeader} from "@/components/kanban/column-header";
+import {useSession} from "next-auth/react";
 
 type BoardProps = {
   board: KanbanBoard<Module>,
@@ -11,6 +12,8 @@ type BoardProps = {
 
 export function CenteredKanbanBoard(props: BoardProps) {
   const [board, setBoard] = useState(props.board)
+
+  const {data: session, status} = useSession()
 
   // Update Base Board when course type changes
   useEffect(() => {
@@ -66,7 +69,14 @@ export function CenteredKanbanBoard(props: BoardProps) {
       return newBoard
     })
 
-    /** TODO: Update API with new module position */
+    updateDatabase()
+  }
+
+  const updateDatabase = () => {
+    if (status !== "authenticated") return
+
+
+
   }
 
 
