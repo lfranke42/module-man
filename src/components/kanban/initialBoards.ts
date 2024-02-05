@@ -41,6 +41,11 @@ export const initialBachelorBoard = {
 export const initialMasterBoard = {
   columns: [
     {
+      id: 0,
+      title: "Module",
+      cards: []
+    },
+    {
       id: 1,
       title: "Semester 1",
       cards: []

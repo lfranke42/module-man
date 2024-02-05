@@ -1,6 +1,6 @@
 import {ControlledBoard, KanbanBoard} from '@caldwell619/react-kanban'
 import {useEffect, useState} from "react";
-import {Module, ModuleDto} from "@/components/kanban/types";
+import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/components/kanban/types";
 import {ModuleCard} from "@/components/kanban/module-card";
 import {ColumnHeader} from "@/components/kanban/column-header";
 
@@ -44,6 +44,31 @@ export function CenteredKanbanBoard(props: BoardProps) {
       ))
   }, [props.course])
 
+  const handleCardDrag = (
+    module: Module,
+    origin: MoveEventOrigin | undefined,
+    destination: MoveEventDestination | undefined) => {
+
+    if (origin === undefined || destination === undefined) return
+    if (origin.fromColumnId === destination.toColumnId) return
+
+    setBoard(prevState => {
+      let newBoard = Object.assign({}, prevState)
+      newBoard.columns.forEach(column => {
+        if (column.id === origin.fromColumnId) {
+          column.cards = column.cards.filter(card => card.id !== module.id)
+        }
+        if (column.id === destination.toColumnId) {
+          column.cards = column.cards.filter(card => card.id !== module.id)
+          column.cards.push(module)
+        }
+      })
+      return newBoard
+    })
+
+    /** TODO: Update API with new module position */
+  }
+
 
   return (
     <div className="flex justify-center mt-16 ml-16 mr-16">
@@ -58,6 +83,9 @@ export function CenteredKanbanBoard(props: BoardProps) {
                        allowAddColumn={true}
                        renderColumnHeader={(column) => {
                          return <ColumnHeader title={column.title}/>
+                       }}
+                       onCardDragEnd={(module, origin, destination) => {
+                         handleCardDrag(module, origin, destination)
                        }}
       >
         {board}

@@ -13,3 +13,13 @@ export type Module = {
   semester: string,
   lecturers: string[],
 }
+
+export type MoveEventOrigin = {
+  fromPosition: number,
+  fromColumnId?: string | number | undefined
+}
+
+export type MoveEventDestination = {
+  toPosition?: number | undefined,
+  toColumnId?: string | number | undefined
+}
