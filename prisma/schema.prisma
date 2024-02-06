@@ -13,7 +13,8 @@ datasource db {
 model Module {
   id        String @id @default(cuid())
   moduleNum String
-  semester  Int
+  course    String
+  board     Int
   userId    String
   user      User   @relation(fields: [userId], references: [id])
 }

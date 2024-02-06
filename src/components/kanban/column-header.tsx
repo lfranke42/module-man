@@ -1,5 +1,5 @@
 import {H3} from "@/components/typography/H3";
-import {Module} from "@/components/kanban/types";
+import {Module} from "@/types/kanban";
 import {useEffect, useState} from "react";
 import {Badge} from "@/components/ui/badge";
 

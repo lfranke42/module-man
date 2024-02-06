@@ -21,7 +21,13 @@ export const authOptions: NextAuthOptions = {
       const user = await prisma.user.findFirst({
         where: {id: account.providerAccountId},
       })
-      if (user) return token
+
+      // If user already exists, return the token
+      if (user) {
+        token.id = account.providerAccountId
+        return token
+      }
+
 
       await prisma.user.create({
         data: {
@@ -31,6 +37,7 @@ export const authOptions: NextAuthOptions = {
         },
       })
 
+      token.id = account.providerAccountId
       return token
     }
   }

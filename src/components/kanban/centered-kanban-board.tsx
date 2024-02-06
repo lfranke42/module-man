@@ -1,9 +1,10 @@
 import {ControlledBoard, KanbanBoard} from '@caldwell619/react-kanban'
 import {useEffect, useState} from "react";
-import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/components/kanban/types";
+import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/types/kanban";
 import {ModuleCard} from "@/components/kanban/module-card";
 import {ColumnHeader} from "@/components/kanban/column-header";
 import {useSession} from "next-auth/react";
+import {CoursePostParams} from "@/types/api";
 
 type BoardProps = {
   board: KanbanBoard<Module>,
@@ -69,14 +70,23 @@ export function CenteredKanbanBoard(props: BoardProps) {
       return newBoard
     })
 
-    updateDatabase()
+    updateDatabase(module, origin.fromColumnId as number, destination.toColumnId as number)
   }
 
-  const updateDatabase = () => {
+  const updateDatabase = (module: Module, originBoard: number, destinationBoard: number) => {
     if (status !== "authenticated") return
 
+    const requestBody: CoursePostParams = {
+      course: props.course,
+      module: module,
+      originBoard: originBoard,
+      destinationBoard: destinationBoard
+    }
 
-
+    fetch(`/api/modules/${props.course}`, {
+      method: "POST",
+      body: JSON.stringify(requestBody)
+    }).then(response => response.json().then(data => console.log(data)))
   }
 
 
