@@ -12,12 +12,11 @@ export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET as string,
   callbacks: {
     async jwt({token, account, profile}) {
-      // Just return the token if isn't a sign in event
       if (account == null || profile == null) {
         return token
       }
 
-      // Otherwise try to add the user to the database
+      // Try to add the user to the database
       const user = await prisma.user.findFirst({
         where: {id: account.providerAccountId},
       })
@@ -27,7 +26,6 @@ export const authOptions: NextAuthOptions = {
         token.id = account.providerAccountId
         return token
       }
-
 
       await prisma.user.create({
         data: {
@@ -39,6 +37,10 @@ export const authOptions: NextAuthOptions = {
 
       token.id = account.providerAccountId
       return token
+    },
+    session({session, token, user}) {
+      session.user.id = token.id as string
+      return session
     }
   }
 };

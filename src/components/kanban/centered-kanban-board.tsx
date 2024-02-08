@@ -4,7 +4,7 @@ import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/types/
 import {ModuleCard} from "@/components/kanban/module-card";
 import {ColumnHeader} from "@/components/kanban/column-header";
 import {useSession} from "next-auth/react";
-import {CoursePostParams} from "@/types/api";
+import {CoursePostBody} from "@/types/api";
 
 type BoardProps = {
   board: KanbanBoard<Module>,
@@ -76,8 +76,7 @@ export function CenteredKanbanBoard(props: BoardProps) {
   const updateDatabase = (module: Module, originBoard: number, destinationBoard: number) => {
     if (status !== "authenticated") return
 
-    const requestBody: CoursePostParams = {
-      course: props.course,
+    const requestBody: CoursePostBody = {
       module: module,
       originBoard: originBoard,
       destinationBoard: destinationBoard
@@ -86,7 +85,7 @@ export function CenteredKanbanBoard(props: BoardProps) {
     fetch(`/api/modules/${props.course}`, {
       method: "POST",
       body: JSON.stringify(requestBody)
-    }).then(response => response.json().then(data => console.log(data)))
+    }).then(r => console.log(r))
   }
 
 

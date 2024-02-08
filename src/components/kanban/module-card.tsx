@@ -21,7 +21,7 @@ export function ModuleCard(props: ModuleCardProps) {
               <CardTitle className="text-ellipsis overflow-hidden">{props.name}</CardTitle>
             </TooltipTrigger>
             <TooltipContent>
-              {props.name}
+              {props.id + " " + props.name}
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>

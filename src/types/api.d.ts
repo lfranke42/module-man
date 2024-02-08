@@ -1,12 +1,11 @@
-import {Module} from "@/types/kanban";
+import Module from './kanban';
 
-type CourseGetParams = {
+export type CourseUrlParams = {
   course: string;
 }
 
-type CoursePostParams = {
-  course: string;
-  module: Module;
-  originBoard: number;
-  destinationBoard: number;
+export type CoursePostBody = {
+  originBoard: number,
+  destinationBoard: number,
+  module: Module
 }

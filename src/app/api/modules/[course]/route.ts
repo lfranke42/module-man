@@ -1,10 +1,11 @@
 import {NextRequest, NextResponse} from "next/server";
 import {promises as fs} from 'fs';
-import {CourseGetParams, CoursePostParams} from "@/types/api";
-import {getToken} from "next-auth/jwt";
+import {CoursePostBody, CourseUrlParams} from "@/types/api";
 import prisma from "@/lib/prisma";
+import {authOptions} from "@/app/api/auth/[...nextauth]/route";
+import {getServerSession} from "next-auth";
 
-export async function GET(request: NextRequest, context: { params: CourseGetParams }) {
+export async function GET(request: NextRequest, context: { params: CourseUrlParams }) {
   const params = context.params;
   const validCourses = ["inb", "inm", "mib-bin", "mib", "mim"]
 
@@ -19,10 +20,11 @@ export async function GET(request: NextRequest, context: { params: CourseGetPara
   return NextResponse.json(JSON.parse(file));
 }
 
-export async function POST(request: NextRequest, context: { params: CoursePostParams }) {
-  const token = await getToken({req: request});
+export async function POST(request: NextRequest, context: { params: CourseUrlParams }) {
+  const session = await getServerSession(authOptions)
+  console.log(session)
 
-  if (!token) {
+  if (!session) {
     return new Response("Authentication required", {
       status: 401,
       headers: {
@@ -31,34 +33,50 @@ export async function POST(request: NextRequest, context: { params: CoursePostPa
     });
   }
 
-  const params = context.params;
-  const userId = token.id as string;
+  let body;
+  try {
+    body = await request.json() as CoursePostBody;
+    console.log(body)
+  } catch (e) {
+    return new Response("Invalid JSON", {status: 400});
+  }
 
-  // TODO: Fix params containing only course
+  const userId = session.user.id;
+  const movedModule = body.module;
+  const originBoard = body.originBoard;
+  const destinationBoard = body.destinationBoard;
 
-  console.log("Hello")
-  console.log(params.module)
+  try {
+    // Delete module from origin board
+    await prisma.module.deleteMany({
+      where: {
+        AND:
+          [
+            {userId: userId},
+            {course: context.params.course},
+            {board: originBoard},
+            {moduleNum: movedModule.id}
+          ]
+      }
+    });
+  } catch (e) {
+    return new Response("Module not found", {status: 400});
+  }
 
-  // Delete module from origin board
-  prisma.module.deleteMany({
-    where: {
-      AND:
-        [
-          {userId: userId},
-          {course: params.course},
-          {board: params.originBoard},
-          {moduleNum: params.module.id}
-        ]
-    }});
+  try {
+    // Add module to destination board
+    await prisma.module.create({
+      data: {
+        userId: userId,
+        course: context.params.course,
+        board: destinationBoard,
+        moduleNum: movedModule.id,
+      }
+    });
+  } catch (e) {
+    return new Response("Module already exists", {status: 409});
+  }
 
-  // Add module to destination board
-  prisma.module.create({
-    data: {
-      userId: userId,
-      course: params.course,
-      board: params.destinationBoard,
-      moduleNum: params.module.id,
-    }
-  });
+  return new Response("Module moved", {status: 200});
 }
 
