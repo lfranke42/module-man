@@ -82,10 +82,12 @@ export function CenteredKanbanBoard(props: BoardProps) {
       destinationBoard: destinationBoard
     }
 
-    fetch(`/api/modules/${props.course}`, {
+    fetch(`/api/users/${props.course}`, {
       method: "POST",
       body: JSON.stringify(requestBody)
-    }).then(r => console.log(r))
+    }).catch((error) => {
+      console.error('Error:', error);
+    });
   }
 
 
