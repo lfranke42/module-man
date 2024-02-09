@@ -63,18 +63,18 @@ export function CenteredKanbanBoard(props: BoardProps) {
       console.log(userDbModule)
       setBoard(prevState => {
         let newBoard = Object.assign({}, prevState)
-        let module: Module | undefined;
+        let boardModule: Module | undefined;
         // Search for the module in the board
         newBoard.columns.forEach(column => {
           column.cards.some(card => {
             if (card.id === userDbModule.moduleNum) {
-              module = card;
+              boardModule = card;
               return true
             }
           })
         })
-        console.log("Found module: " + module?.name)
-        if (module === undefined) return prevState
+        console.log("Found module: " + boardModule?.name)
+        if (boardModule === undefined) return prevState
 
         // Remove the module from the old column
         newBoard.columns.forEach(column => {
@@ -82,7 +82,7 @@ export function CenteredKanbanBoard(props: BoardProps) {
         })
 
         // Add the module to the new column
-        newBoard.columns[userDbModule.board].cards.push(module)
+        newBoard.columns[userDbModule.board].cards.push(boardModule)
 
         return newBoard
       })
