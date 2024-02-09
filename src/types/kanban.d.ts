@@ -23,3 +23,7 @@ export type MoveEventDestination = {
   toPosition?: number | undefined,
   toColumnId?: string | number | undefined
 }
+
+type BoardProps = {
+  course: string,
+}

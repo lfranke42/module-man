@@ -1,28 +1,29 @@
 import {ControlledBoard, KanbanBoard} from '@caldwell619/react-kanban'
 import {useEffect, useState} from "react";
-import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/types/kanban";
+import {BoardProps, Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/types/kanban";
 import {ModuleCard} from "@/components/kanban/module-card";
 import {ColumnHeader} from "@/components/kanban/column-header";
 import {useSession} from "next-auth/react";
 import {CoursePostBody, UserDbModel, UserModulesGetResponse} from "@/types/api";
-
-type BoardProps = {
-  board: KanbanBoard<Module>,
-  course: string,
-}
+import {initialBachelorBoard, initialMasterBoard} from "@/components/kanban/initialBoards";
 
 export function CenteredKanbanBoard(props: BoardProps) {
-  const [board, setBoard] = useState(props.board)
-
+  const [board, setBoard] = useState<KanbanBoard<Module>>(initialBachelorBoard)
   const {data: session, status} = useSession()
 
   // Update Base Board when course type changes
   useEffect(() => {
-    setBoard(props.board)
-  }, [props.board])
+    const masterCourses = ["inm", "mim"];
+    if (masterCourses.includes(props.course)) {
+      setBoard(initialMasterBoard)
+    } else {
+      setBoard(initialBachelorBoard);
+    }
 
-  // Fetch Modules from API
-  useEffect(() => {
+    board.columns.forEach(column => {
+      column.cards = []
+    })
+
     fetch(`/api/modules/${props.course}`).then(
       response => response.json().then(
         (data: ModuleDto[]) => {
@@ -39,8 +40,8 @@ export function CenteredKanbanBoard(props: BoardProps) {
               )
             }
           )
-          setBoard(prevState => {
-            let newBoard = Object.assign({}, prevState)
+          setBoard((oldBoard) => {
+            let newBoard = Object.assign({}, oldBoard)
             newBoard.columns[0].cards = modules
             return newBoard
           })
@@ -57,6 +58,7 @@ export function CenteredKanbanBoard(props: BoardProps) {
       )
     )
   }, [status, props.course])
+
 
   const applyUserBoardState = (userDbModules: UserDbModel[]) => {
     userDbModules.forEach((userDbModule: UserDbModel) => {
