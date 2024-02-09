@@ -60,7 +60,6 @@ export function CenteredKanbanBoard(props: BoardProps) {
 
   const applyUserBoardState = (userDbModules: UserDbModel[]) => {
     userDbModules.forEach((userDbModule: UserDbModel) => {
-      console.log(userDbModule)
       setBoard(prevState => {
         let newBoard = Object.assign({}, prevState)
         let boardModule: Module | undefined;
@@ -73,7 +72,6 @@ export function CenteredKanbanBoard(props: BoardProps) {
             }
           })
         })
-        console.log("Found module: " + boardModule?.name)
         if (boardModule === undefined) return prevState
 
         // Remove the module from the old column
