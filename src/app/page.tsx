@@ -6,7 +6,7 @@ import {NoCourseSelected} from "@/components/no-course-selected";
 import {KanbanBoard} from "@caldwell619/react-kanban";
 import {initialBachelorBoard, initialMasterBoard} from "@/components/kanban/initialBoards";
 import {CenteredKanbanBoard} from "@/components/kanban/centered-kanban-board";
-import {Module} from "@/components/kanban/types";
+import {Module} from "@/types/kanban";
 
 
 export default function Home() {

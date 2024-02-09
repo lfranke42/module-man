@@ -3,6 +3,7 @@ import {H1} from "@/components/typography/H1";
 import {ModeToggle} from "@/components/mode-toggle";
 import {Separator} from "@/components/ui/separator";
 import {Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
+import {Login} from "@/components/login";
 
 type HeaderProps = {
   handleCourseChange: (course: string) => void
@@ -10,8 +11,8 @@ type HeaderProps = {
 
 export function Header(props: HeaderProps) {
   return (
-    <>
-      <NavigationMenu className="pt-4 pb-4 backdrop-blur-sm">
+    <div className="sticky top-0">
+      <NavigationMenu className="pt-4 pb-4 backdrop-blur-md">
         <NavigationMenuList className="container flex h-14 max-w-screen-2xl w-screen items-center pl-6 pr-6">
           <div className="mr-4 md:flex md:space-x-8">
             <NavigationMenuItem>
@@ -34,7 +35,10 @@ export function Header(props: HeaderProps) {
               </Select>
             </NavigationMenuItem>
           </div>
-          <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
+          <div className="flex flex-1 items-center justify-between space-x-4 md:justify-end">
+            <NavigationMenuItem>
+              <Login/>
+            </NavigationMenuItem>
             <NavigationMenuItem>
               <ModeToggle/>
             </NavigationMenuItem>
@@ -42,6 +46,6 @@ export function Header(props: HeaderProps) {
         </NavigationMenuList>
       </NavigationMenu>
       <Separator/>
-    </>
+    </div>
   )
 }

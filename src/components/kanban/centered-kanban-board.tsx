@@ -1,8 +1,10 @@
 import {ControlledBoard, KanbanBoard} from '@caldwell619/react-kanban'
 import {useEffect, useState} from "react";
-import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/components/kanban/types";
+import {Module, ModuleDto, MoveEventDestination, MoveEventOrigin} from "@/types/kanban";
 import {ModuleCard} from "@/components/kanban/module-card";
 import {ColumnHeader} from "@/components/kanban/column-header";
+import {useSession} from "next-auth/react";
+import {CoursePostBody, UserDbModel, UserModulesGetResponse} from "@/types/api";
 
 type BoardProps = {
   board: KanbanBoard<Module>,
@@ -11,6 +13,8 @@ type BoardProps = {
 
 export function CenteredKanbanBoard(props: BoardProps) {
   const [board, setBoard] = useState(props.board)
+
+  const {data: session, status} = useSession()
 
   // Update Base Board when course type changes
   useEffect(() => {
@@ -41,8 +45,48 @@ export function CenteredKanbanBoard(props: BoardProps) {
             return newBoard
           })
         }
-      ))
-  }, [props.course])
+      )
+    )
+
+    if (status !== "authenticated") return
+
+    fetch(`/api/users/${props.course}`).then(
+      response => response.json().then((userDbModules: UserModulesGetResponse) => {
+          applyUserBoardState(userDbModules)
+        }
+      )
+    )
+  }, [status, props.course])
+
+  const applyUserBoardState = (userDbModules: UserDbModel[]) => {
+    userDbModules.forEach((userDbModule: UserDbModel) => {
+      setBoard(prevState => {
+        let newBoard = Object.assign({}, prevState)
+        let boardModule: Module | undefined;
+        // Search for the module in the board
+        newBoard.columns.forEach(column => {
+          column.cards.some(card => {
+            if (card.id === userDbModule.moduleNum) {
+              boardModule = card;
+              return true
+            }
+          })
+        })
+        if (boardModule === undefined) return prevState
+
+        // Remove the module from the old column
+        newBoard.columns.forEach(column => {
+          column.cards = column.cards.filter(card => card.id !== userDbModule.moduleNum)
+        })
+
+        // Add the module to the new column
+        newBoard.columns[userDbModule.board].cards.push(boardModule)
+
+        return newBoard
+      })
+    })
+  }
+
 
   const handleCardDrag = (
     module: Module,
@@ -66,7 +110,24 @@ export function CenteredKanbanBoard(props: BoardProps) {
       return newBoard
     })
 
-    /** TODO: Update API with new module position */
+    updateDatabase(module, origin.fromColumnId as number, destination.toColumnId as number)
+  }
+
+  const updateDatabase = (module: Module, originBoard: number, destinationBoard: number) => {
+    if (status !== "authenticated") return
+
+    const requestBody: CoursePostBody = {
+      module: module,
+      originBoard: originBoard,
+      destinationBoard: destinationBoard
+    }
+
+    fetch(`/api/users/${props.course}`, {
+      method: "POST",
+      body: JSON.stringify(requestBody)
+    }).catch((error) => {
+      console.error('Error:', error);
+    });
   }
 
 
