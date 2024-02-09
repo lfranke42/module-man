@@ -57,7 +57,7 @@ export function CenteredKanbanBoard(props: BoardProps) {
         }
       )
     )
-  }, [status, props.course])
+  }, [board.columns, status, props.course])
 
 
   const applyUserBoardState = (userDbModules: UserDbModel[]) => {
