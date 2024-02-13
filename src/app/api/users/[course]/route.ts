@@ -87,3 +87,34 @@ export async function GET(request: NextRequest, context: { params: CourseUrlPara
 
   return new Response(JSON.stringify(modules), {status: 200});
 }
+
+export async function DELETE(request: NextRequest, context: { params: CourseUrlParams }) {
+  const session = await getServerSession(authOptions)
+
+  if (!session) {
+    return new Response("Authentication required", {
+      status: 401,
+      headers: {
+        "WWW-Authenticate": 'Basic realm="Secure Area"',
+      },
+    });
+  }
+
+  const userId = session.user.id;
+
+  try {
+    await prisma.module.deleteMany({
+      where: {
+        AND:
+          [
+            {userId: userId},
+            {course: context.params.course},
+          ]
+      }
+    });
+  } catch (e) {
+    return new Response("Not found", {status: 400});
+  }
+
+  return new Response("Entries deleted", {status: 200});
+}
