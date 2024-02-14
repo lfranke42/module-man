@@ -13,11 +13,12 @@ Use it to organzie your semesters and spread out your required ECTS points as yo
 - Resonsive UI optimized for mobile devices
 - Dark/Light Mode
 - Drag and Drop support for moving cards/modules around
+- Shortcut for resetting config
+
 
 ## Planned
 - Custom amount of Semesters
 - Total ECTS Counter
-- Shortcut for resetting config
 
 
 

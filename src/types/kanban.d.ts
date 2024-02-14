@@ -26,4 +26,5 @@ export type MoveEventDestination = {
 
 type BoardProps = {
   course: string,
+  courseUpdate: boolean,
 }
